@@ -1,9 +1,13 @@
 import React from 'react';
 import ReducerSample from './ReducerSample';
+import { SampleProvider } from './SampleContext';
 
 function App() {
   return (
-<ReducerSample></ReducerSample>
+    <SampleProvider>
+      <ReducerSample></ReducerSample>
+    </SampleProvider>
+
   );
 }
 

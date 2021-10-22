@@ -12,7 +12,7 @@ function reducer(state: number, action: Action): number {
     }
 }
 
-function Counter(){
+function CounterFunction(){
     //useState로 구현
     // const [count,setCount] = useState<number>(0)
     // const onIncrease = ()=> setCount(count + 1)
@@ -34,4 +34,4 @@ function Counter(){
     )
 }
 
-export default Counter
+export default CounterFunction

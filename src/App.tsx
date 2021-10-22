@@ -1,13 +1,14 @@
 import React from 'react';
-import ReducerSample from './ReducerSample';
-import { SampleProvider } from './SampleContext';
+import CounterContainer from './containers/CounterContainer';
+// import ReducerSample from './ReducerSample';
+// import { SampleProvider } from './SampleContext';
 
 function App() {
   return (
-    <SampleProvider>
-      <ReducerSample></ReducerSample>
-    </SampleProvider>
-
+    // <SampleProvider>
+    //   <ReducerSample></ReducerSample>
+    // </SampleProvider>
+<CounterContainer></CounterContainer>
   );
 }
 
